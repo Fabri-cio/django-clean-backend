@@ -1,0 +1,134 @@
+# =========================================================
+# 🐍 Python
+# =========================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Compiled extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# =========================================================
+# 🌐 Django
+# =========================================================
+
+# Local database (SQLite)
+db.sqlite3
+db.sqlite3-journal
+
+# Django static/media files generated locally
+staticfiles/
+media/
+
+# =========================================================
+# 🔐 Environment variables / secrets
+# =========================================================
+
+.env
+.env.*
+!.env.example
+
+# =========================================================
+# 🧪 Testing / Coverage
+# =========================================================
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+coverage.xml
+*.cover
+
+# =========================================================
+# 🖥️ Virtual environments
+# =========================================================
+
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# =========================================================
+# 🧰 IDE / Editors
+# =========================================================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# =========================================================
+# 🖥️ Operating System
+# =========================================================
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =========================================================
+# 🔧 Tools
+# =========================================================
+
+.pyre/
+.pytype/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+.ruff_cache/
+
+# =========================================================
+# 📦 Node (por si posteriormente agregamos frontend)
+# =========================================================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================================================
+# 🐳 Docker
+# =========================================================
+
+docker-compose.override.yml
+
+# =========================================================
+# 📄 Local project files
+# =========================================================
+
+*.log
+*.tmp
+*.temp
+
+# =========================================================
+# 📝 Documentación local
+# =========================================================
+
+manual/
