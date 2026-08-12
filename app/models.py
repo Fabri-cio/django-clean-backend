@@ -1,0 +1,1 @@
+from app.infrastructure.persistence.models.producto_model import ProductoModel
