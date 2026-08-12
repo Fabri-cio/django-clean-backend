@@ -1,4 +1,4 @@
-from abc import ABC
+from abc import ABC, abstractmethod
 from app.domain.entities.producto import Producto
 
 class ProductoRepository(ABC):
