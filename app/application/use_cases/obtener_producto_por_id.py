@@ -9,7 +9,7 @@ class ObtenerProductoPorIdUseCase:
         producto = self.producto_repository.obtener_por_id(producto_id)
 
         if producto is None:
-            raise ValueError("Producto no encontrado")
+            raise ValueError("El producto no existe")
         
         return producto
 
